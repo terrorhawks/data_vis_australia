@@ -18,7 +18,7 @@ require.config({
   }
 });
 
-require(['app', 'jquery', 'd3', 'topojson', 'queue'], function (app, $) {
+require(['jquery', 'd3', 'topojson', 'queue'], function ($) {
   'use strict';
 
   $(document).ready(function(){
