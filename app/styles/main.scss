@@ -1,6 +1,27 @@
-@import 'sass-bootstrap/lib/bootstrap';
-
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
+.sea-border {
+  stroke: #222;
+  stroke-width: 0.01px;
+  fill: none;
 }
+
+.state-border {
+  stroke: black;
+  stroke-width: 0.1px;
+  fill: none;
+}
+
+.mouse-postcode {
+  z-index:10;
+  position:fixed;
+}
+
+.unknown { fill:rgb(200,200,200); }
+.q0-9 { fill:rgb(247,245,224); }
+.q1-9 { fill:rgb(229,245,224); }
+.q2-9 { fill:rgb(199,233,192); }
+.q3-9 { fill:rgb(161,217,155); }
+.q4-9 { fill:rgb(116,196,118); }
+.q5-9 { fill:rgb(65,171,93); }
+.q6-9 { fill:rgb(35,139,69); }
+.q7-9 { fill:rgb(0,109,44); }
+.q8-9 { fill:rgb(0,68,27); } 
